@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "571138131547",
+    "project_id": "e-skills-a6640",
+    "storage_bucket": "e-skills-a6640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571138131547:android:dd5cc5767a34abd558217e",
+        "android_client_info": {
+          "package_name": "com.example.projekmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvAUeKV2IZNHiUFX-vKDTUb-29Irq8qT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
