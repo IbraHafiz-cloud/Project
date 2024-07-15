@@ -12,15 +12,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjekMobile"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <!-- Declare LoginActivity -->
+        <activity android:name=".LoginActivity" android:exported="true" />
+
+        <!-- Declare RegisterActivity -->
+        <activity android:name=".RegisterActivity" android:exported="true" />
+
+        <!-- Declare HomeActivity -->
+        <activity android:name=".HomeActivity" android:exported="true" />
+
+        <!-- Declare DaftarLowongan -->
+        <activity android:name=".DaftarLowonganActivity" android:exported="true" />
+
+        <!-- Declare DetailLowongan1 -->
+        <activity android:name=".DetailLowongan1Activity" android:exported="true"/>
+
+        <!-- Declare Lowongan1 -->
+        <activity android:name=".Lowongan1Activity" android:exported="true"/>
+
+        <!-- Declare Lowongan2 -->
+        <activity android:name=".Lowongan2Activity" android:exported="true"/>
+
+        <!-- Declare DetailLowongan2 -->
+        <activity android:name=".DetailLowongan2Activity" android:exported="true"/>
+
+        <!-- Declare AdminHomeActivity -->
+        <activity android:name=".AdminHomeActivity" android:exported="true"/>
+
+        <!-- Declare Profile -->
+        <activity android:name=".ProfileActivity" android:exported="true"/>
+
+        <!-- Declare Sertifikat -->
+        <activity android:name=".SertifikatActivity" android:exported="true"/>
+
+        <!-- Declare LowonganAdminActivity -->
+        <activity android:name=".LowonganAdminActivity" android:exported="true"/>
+
+    </application>
 </manifest>
