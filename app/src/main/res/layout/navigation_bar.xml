@@ -1,0 +1,43 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#003366">
+
+    <Button
+        android:id="@+id/btnKelasSaya"
+        android:textSize="12sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Kelas Saya"
+        android:textColor="#FFFFFF"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/ic_class"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:textSize="12sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/ic_home"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:textSize="12sp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableTop="@drawable/ic_profile"
+        android:gravity="center" />
+</LinearLayout>
