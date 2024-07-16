@@ -247,7 +247,7 @@
                         android:id="@+id/riwayat_kelas_label"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Riwayat Kelas"
+                        android:text="Status Lamaran"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -257,11 +257,14 @@
                         android:id="@+id/riwayat_kelas_value"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="2 Kelas Selesai"
+                        android:text="Info"
                         android:background="@drawable/edit_text_background"
                         android:padding="12dp"
                         android:textColor="@color/black"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
                 </LinearLayout>
 
                 <LinearLayout

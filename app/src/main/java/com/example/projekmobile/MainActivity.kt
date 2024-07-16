@@ -9,13 +9,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.landing_page) // Menghubungkan layout XML dengan activity
+        setContentView(R.layout.landing_page)
 
-        // Set up the buttons
+        // Jangan panggil addAdminData() lagi karena akun admin sudah ada di database
+
         val signInButton: Button = findViewById(R.id.signin)
         val signUpButton: Button = findViewById(R.id.signup)
 
-        // Set click listeners for buttons
         signInButton.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)

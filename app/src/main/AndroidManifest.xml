@@ -58,5 +58,8 @@
         <!-- Declare LowonganAdminActivity -->
         <activity android:name=".LowonganAdminActivity" android:exported="true"/>
 
+        <!-- Declare StatusActivity -->
+        <activity android:name=".StatusActivity" android:exported="true"/>
+
     </application>
 </manifest>

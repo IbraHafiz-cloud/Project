@@ -57,6 +57,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation("com.google.firebase:firebase-storage:20.0.0")
+
     implementation("androidx.navigation:navigation-fragment-ktx:2.4.0")
     implementation("androidx.navigation:navigation-ui-ktx:2.4.0")
     implementation("com.google.android.material:material:1.3.0")

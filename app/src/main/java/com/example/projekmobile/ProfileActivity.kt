@@ -18,6 +18,7 @@ class ProfileActivity : AppCompatActivity() {
 
     private lateinit var tvNamaLengkap: TextView
     private lateinit var tvEmail: TextView
+    private lateinit var riwayatKelasValue: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +31,7 @@ class ProfileActivity : AppCompatActivity() {
         // Initialize views
         tvNamaLengkap = findViewById(R.id.name_edit_text)
         tvEmail = findViewById(R.id.email_edit_text)
+        riwayatKelasValue = findViewById(R.id.riwayat_kelas_value)
 
         // Get user data from Firebase
         val currentUser = auth.currentUser
@@ -50,6 +52,13 @@ class ProfileActivity : AppCompatActivity() {
             })
         }
 
+        // Set click listener for "Riwayat Kelas"
+        riwayatKelasValue.setOnClickListener {
+            val intent = Intent(this, StatusActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Set click listener for "Sertifikat"
         val sertifikatTextView = findViewById<TextView>(R.id.sertifikat_value)
         sertifikatTextView.setOnClickListener {
             val intent = Intent(this, SertifikatActivity::class.java)
